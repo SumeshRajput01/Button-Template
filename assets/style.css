@@ -130,3 +130,84 @@ body {
 .second-button-container:hover .bottom-line{
     width: 100%;
 }
+
+/* Third button container */
+.third-button-container{
+    position: relative;
+}
+
+.third-button-container .third-btn{
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(3, 7, 8, 0.2);
+    font-weight: 600;
+    border: none;
+    color: rgb(22, 255, 205);
+    font-weight: 100;
+}
+
+.third-button-container .animi-first-line,
+.third-button-container .animi-second-line,
+.third-button-container .animi-third-line,
+.third-button-container .animi-forth-line{
+    position: absolute;
+}
+
+.third-button-container .animi-first-line{
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: linear-gradient(to left, rgba(4, 224, 4, 0.4), rgba(0, 255, 213, 0.4), rgb(0, 162, 255, 0.4));
+    box-shadow: 0px 2px 5px rgb(42, 65, 69), -2px -2px 5px rgb(42, 65, 69);
+    transition: 0.5s linear 0.1s;
+}
+
+.third-button-container:hover .animi-first-line{
+    width: 100%;
+}
+
+.third-button-container .animi-second-line{
+    width: 2px;
+    height: 0%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to left, rgba(4, 224, 4, 0.8), rgba(0, 255, 213, 0.8), rgb(0, 162, 255, 0.8));
+    box-shadow: 0px 2px 5px rgb(42, 65, 69), 0px -2px 5px rgb(42, 65, 69);
+    transition: 0.3s linear 0.6s;
+}
+
+.third-button-container:hover .animi-second-line{
+    height: 100%;
+}
+
+.third-button-container .animi-third-line{
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to left, rgba(0, 246, 234, 0.8), rgba(0, 187, 255, 0.8), rgba(0, 106, 255, 0.8));
+    box-shadow: 0px 2px 5px rgb(6, 194, 204), 0px -2px 5px rgb(3, 255, 137);
+    transition: 0.5s linear 0.9s;
+}
+
+.third-button-container:hover .animi-third-line{
+    width: 100%;
+}
+
+
+.third-button-container .animi-forth-line{
+    height: 0%;
+    width: 2px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, rgba(0, 246, 234, 0.8), rgba(0, 187, 255, 0.8), rgba(0, 106, 255, 0.8));
+    box-shadow: 0px 2px 5px rgb(6, 194, 204), 0px -2px 5px rgb(3, 255, 137);
+    transition: 0.3s linear 1.4s;
+}
+
+.third-button-container:hover .animi-forth-line{
+    height: 100%;
+}
